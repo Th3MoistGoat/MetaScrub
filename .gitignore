@@ -1,0 +1,18 @@
+# PyInstaller build output
+dist/
+build/
+*.spec
+
+# Transient download artifacts from compile.bat - do not commit.
+# NOTE: exiftool.exe + exiftool_files/ ARE committed intentionally:
+# compile.bat skips the download when they're already present.
+exiftool_dl.zip
+exiftool_tmp/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Windows
+Thumbs.db
+Desktop.ini
